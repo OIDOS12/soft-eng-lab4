@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"AdapterPackage","l":"AdapterAPI1toAPI2"},{"p":"AdapterPackage","l":"AdapterAPI2toAPI1"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"AdapterPackage","l":"API1"},{"p":"AdapterPackage","l":"API1Class"},{"p":"AdapterPackage","l":"API2"},{"p":"AdapterPackage","l":"API2Class"},{"p":"AdapterPackage","l":"Main"}];updateSearchResults();

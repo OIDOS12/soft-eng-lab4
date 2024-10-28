@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/SoftwareEngineering/Lab4/src</OriginalElement>
+  <nodes>
+    <node x="41.25" y="546.0">AdapterAPI1toAPI2</node>
+    <node x="42.5" y="346.5">API2</node>
+    <node x="-192.5" y="643.9264705882354">API2Class</node>
+    <node x="527.4485294117648" y="643.9264705882354">API1Class</node>
+    <node x="425.485294117647" y="346.5">API1</node>
+    <node x="294.44852941176475" y="546.0">AdapterAPI2toAPI1</node>
+    <node x="206.01470588235293" y="872.6029411764706">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="AdapterAPI1toAPI2" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="288.0147058823529" y="798.0" />
+      <point x="158.75" y="798.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="AdapterAPI2toAPI1" target="API2" relationship="TO_ONE">
+      <point x="-7.441176470588346" y="-32.76470588235293" />
+      <point x="403.5073529411764" y="457.8529411764706" />
+      <point x="218.75" y="457.8529411764706" />
+      <point x="58.75" y="31.5" />
+    </edge>
+    <edge source="Main" target="API2Class" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="288.0147058823529" y="798.0" />
+      <point x="-75.0" y="798.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="AdapterAPI2toAPI1" target="API1" relationship="REALIZATION">
+      <point x="58.25" y="-44.0" />
+      <point x="469.19852941176475" y="478.0" />
+      <point x="513.8014705882351" y="478.0" />
+      <point x="-28.18382352941194" y="34.558823529411825" />
+    </edge>
+    <edge source="Main" target="API1Class" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="288.0147058823529" y="798.0" />
+      <point x="643.9485294117648" y="798.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="Main" target="AdapterAPI2toAPI1" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="288.0147058823529" y="798.0" />
+      <point x="410.94852941176475" y="798.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="AdapterAPI1toAPI2" target="API2" relationship="REALIZATION">
+      <point x="-58.75" y="-44.0" />
+      <point x="100.0" y="438.0" />
+      <point x="101.25" y="438.0" />
+      <point x="-58.75" y="31.5" />
+    </edge>
+    <edge source="API2Class" target="API2" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="-75.0" y="478.0" />
+      <point x="100.0" y="478.0" />
+      <point x="100.0" y="438.0" />
+      <point x="100.1985294117647" y="438.0" />
+      <point x="-59.801470588235304" y="32.529411764705856" />
+    </edge>
+    <edge source="API1Class" target="API1" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="643.9485294117648" y="480.5" />
+      <point x="513.1029411764705" y="480.5" />
+      <point x="513.1029411764705" y="435.625" />
+      <point x="513.8014705882351" y="435.625" />
+      <point x="-28.18382352941194" y="33.632352941176464" />
+    </edge>
+    <edge source="AdapterAPI1toAPI2" target="API1" relationship="TO_ONE">
+      <point x="58.75" y="-44.0" />
+      <point x="217.5" y="478.0" />
+      <point x="319.39705882352945" y="478.0" />
+      <point x="319.39705882352945" y="393.75" />
+      <point x="502.2205882352942" y="393.75" />
+      <point x="-39.76470588235287" y="29.235294117647072" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.9066666666666667" showDependencies="true" x="277.57927389705867" y="662.676930147059" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
